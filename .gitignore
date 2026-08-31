@@ -1,0 +1,13 @@
+# Build output
+chip8
+tests
+run_rom
+*.o
+*.dSYM/
+
+# Third-party test ROMs (GPL-3.0, not ours to redistribute).
+# Fetch them with: ./scripts/get-test-roms.sh
+roms/[1-8]-*.ch8
+
+# macOS
+.DS_Store
