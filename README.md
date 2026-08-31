@@ -15,7 +15,7 @@ including all seven documented behavioural quirks, each switchable at runtime.
 
 ```bash
 brew install sdl2            # or: apt install libsdl2-dev
-git clone https://github.com/<your-username>/chip8.git
+git clone https://github.com/Duelboy03/chip8.git
 cd chip8
 make
 ./scripts/get-test-roms.sh   # optional: fetch the test-suite ROMs
